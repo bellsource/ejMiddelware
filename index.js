@@ -14,7 +14,7 @@ function loguearRuta(req,res,next){
 }
 
 //Middelware
-//utilización del middelware a nivel server, en su totalidad
+//utilización del middelware a nivel server, en su totalidad(para todas las rutas)
 server.use(loguearRuta);
 
 //para saber si funciona
